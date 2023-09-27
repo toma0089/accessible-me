@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(7, 248, 196);
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif; color: #000;
 }
 
 .container {
@@ -43,6 +43,9 @@ img {
   text-decoration: none;
   font-size: 1.25rem;
 }
+.main-nav ul li a:hover {
+  color: #0056b3;
+}
 
 form input,
 form textarea {
@@ -68,4 +71,7 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
 }
